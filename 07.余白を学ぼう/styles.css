@@ -1,1 +1,13 @@
 /* p要素に適用するスタイル */
+p{
+    display: inline-block; /* インラインブロック要素として表示 */
+    background-color: #00008B;
+    color: white;
+    width: 160px; /* 幅を200pxに設定 */
+    text-align: center;
+    padding: 10px; /* 内側の余白を10pxに設定 */
+    margin-right: 20px;
+    border-style: dotted ridge solid;
+    border-color: yellow yellow red;
+    border-width: 5px 10px;
+}
